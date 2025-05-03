@@ -1,0 +1,53 @@
+/* Resetting the default of the browsers */
+*{
+  box-sizing: border-box;
+  padding: 0;  
+  margin: 0;
+}
+
+/*styling the body element  */
+body{
+    background: linear-gradient(to bottom, #4f008a, #b149bb);
+    min-height: 100vh;
+}
+
+/* styling the h1 */
+h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/* styling the wrapper container */
+.wrapper{
+    margin-top: 100px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the piano keys */
+.piano{
+    display: flex;
+}
+
+/* styling the key class */
+.key{
+    height: calc(var(--width) * 4);
+    width:var(--width);
+    transition: background-color 0.2s ease;
+    position:relative;
+}
+
+/* styling for the white keys */
+.white{
+    /* css variable technique */
+    --width:100px; 
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);  
+    border: 1px solid #333;
+    border-radius: 0px 0px 10px 10px;
+    
+}
