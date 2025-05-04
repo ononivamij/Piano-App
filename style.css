@@ -54,5 +54,11 @@ h1{
 
 /* styling the white key that we may use it in javascript */
 .white:active{
-    background-color:
+    background-color: #ccc;
+}
+.black{
+    --width:60px;
+    background:linear-gradient(to bottom, #000000,  #333333 );
+    margin-left:calc(var(--width) / -2);
+    margin-right:calc(var(--width)/ -2);
 }
