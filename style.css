@@ -61,4 +61,16 @@ h1{
     background:linear-gradient(to bottom, #000000,  #333333 );
     margin-left:calc(var(--width) / -2);
     margin-right:calc(var(--width)/ -2);
+    z-index: 2;
+    border-radius: 0px 0px 8px 8px;
+    color:#fff; 
+}
+
+.note-label{
+    font-size: 12px;
+    color:inherit;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
